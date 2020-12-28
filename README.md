@@ -1,0 +1,2 @@
+# pos_skip_receipt_screen
+pos_skip_receipt_screen
