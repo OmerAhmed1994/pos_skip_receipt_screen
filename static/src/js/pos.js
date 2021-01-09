@@ -10,6 +10,7 @@ odoo.define('pos_skip_receipt_screen', function (require) {
             this._super();
             if (this.pos.config.skip_receipt_screen)
                 this.gui.show_screen('products');
+                this.pos.get_order().finalize();
         },
     });
 });
